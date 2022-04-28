@@ -1,0 +1,5 @@
+You can use useCallback to call a function instead of attaching useRef to an element and using a useEffect
+
+You can keep mapping into arrays and then use the map to change the formatting of the output array for all the levels that you are iterating through
+
+useCallback can be used to make make a fucntion that would've been called every single rerender, only be called based on the dependency you put into it 
